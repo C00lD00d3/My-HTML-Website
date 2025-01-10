@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>My Amazing Website 🥰📱📶🎆💯</title>
+</head>
+<body>
+    <div class="navigation"> 
+        <h1 class="welcome">WELCOME TO MY WEBSITE</h1>
+        <a class="Home" href="Awesome.html">Home</a>
+        <a class="Sign" href="sign.html"> Sign Up</a>
+    </div>
+    <div class="sign">
+        <ol>
+        <h1>Don't have an account?</h1>
+        
+        <p><h2>Sign up today for free</h2></p>
+        
+        <a href="sign.html">Sign Up</a>
+    </ol>
+    </div>
+    
+    <div class="sing">
+        <ol>
+        <h1>Already have an account?</h1>
+        
+        <p><h2>Sign in here</h2></p>
+        
+        <a href="sign.html">Sign In</a>
+    </ol>
+    </div>
+    <div class="audio">
+        <audio controls>
+            <source src="horse.ogg" type="audio/ogg" />
+            <source src="C:/Users/USER/Downloads/eternxlkz_slay_official_audio_mp3_68794.mp3" type="audio/mp4"/>
+            Your browser does not support the audio element.
+          </audio>
+    </div>
+</div>
+</div>
+</body>
+<style>
+    body{
+        background: url("C:/Users/USER/Desktop/Stuff/OIG4 (3).png");
+    }
+    .Home{
+        color: black;
+        font-family: Comic Sans MS;
+        font-size: 30px;
+        left:0;
+    }
+    .sing{
+        font-family: Broadway;
+        margin: 14%;
+    border-radius: 30px;
+    align-self: center;
+    text-align:center;
+      box-sizing: border-box;
+      width: 400px;
+      height:500px;
+      background-color: rgba(255, 255, 255, 0.438);
+      color: rgba(255, 255, 255, 0.342);
+      backdrop-filter: blur(33px);
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+}
+    .Sign{
+        color: rgb(25, 0, 255);
+        font-family:Forte;
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+    }
+    a{
+      border-radius: 30px;
+      box-sizing: border-box;
+      width: 200px;
+      height:100px;
+      background-color: rgba(0, 0, 0, 0);
+      color: rgba(0,0,0,0.8);
+      backdrop-filter: blur(33px);
+      background-blend-mode: overlay;
+      display: flex;
+      align-items: center;
+        text-align: center;
+        color: black;
+        font-family: Comic Sans MS;
+        font-size: 30px;
+        position: absolute;
+        bottom: 0;
+}
+.navigation{
+    border-radius: 30px;
+      box-sizing: border-box;
+      width: 1120px;
+      height:100px;
+      background-color: rgba(0, 0, 0, 0);
+      color: rgba(0,0,0,0.8);
+      backdrop-filter: blur(33px);
+      background-blend-mode: overlay;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+}
+.welcome{
+    font-size: 50px;
+    font-family: Agency FB;
+    text-align: center;
+    position: absolute;
+    margin: 30%;
+}
+.sign{
+    font-family: Comic Sans MS;
+    margin: 5%;
+    border-radius: 30px;
+    text-align:center;
+      box-sizing: border-box;
+      width: 400px;
+      height:500px;
+      background-color: rgba(255, 255, 255, 0.438);
+      color: rgba(255, 255, 255, 0.342);
+      backdrop-filter: blur(33px);
+      background-blend-mode: overlay;
+      display: flex;
+}
+</style>
+</body>
+</html>
